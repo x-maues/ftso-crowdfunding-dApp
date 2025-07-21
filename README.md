@@ -35,22 +35,20 @@ A decentralized crowdfunding platform built on Flare Network that allows users t
 3. Compile the contracts:
 
    ```console
-   yarn hardhat compile
+   npx hardhat compile
    ```
 
-## Testing
-
-Run the test suite:
-
-```console
-yarn hardhat test
-```
 
 The tests cover:
 - Campaign creation and management
 - Contributions and goal tracking
 - Campaign finalization
 - Edge cases and security checks
+
+Enter backend
+```
+cd backend
+```
 
 ## Deployment (you're going to need 5 signer or 5 accounts' private key to run the tests in the deployment script)
 
@@ -72,6 +70,16 @@ The deployment script will:
 - Create test campaigns
 - Demonstrate campaign interactions
 - Show FTSO price integration
+
+Enter frontend
+```
+cd frontend
+```
+
+```
+npm i
+npm run dev
+```
 
 ## Contract Structure 
 
