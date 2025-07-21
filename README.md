@@ -13,7 +13,9 @@ A decentralized crowdfunding platform built on Flare Network that allows users t
 ## Getting Started
 
 Install Metamask
+
 Create accounts (5 for testing)
+
 Fund with [Faucet](https://faucet.flare.network/coston2)
 
 1. Clone and install dependencies:
@@ -32,7 +34,7 @@ Fund with [Faucet](https://faucet.flare.network/coston2)
    ```
 
    Add the following values in `.env`:
-   - `PRIVATE_KEY_1`: Your wallet's private key...
+   - `PRIVATE_KEY_1`: Your accounts' private keys...
    (5 accounts needed)
    - `FACTORY_ADDRESS`: The deployed factory contract address (after deployment)
 
@@ -87,7 +89,7 @@ npm run dev
 
 ## Contract Structure 
 
-contracts/fund/ -
+backend/contracts/ -
 
 - `CrowdfundingFactory.sol`: Factory contract for creating and managing campaigns
 - `CrowdfundingCampaign.sol`: Individual campaign contract with FTSO integration

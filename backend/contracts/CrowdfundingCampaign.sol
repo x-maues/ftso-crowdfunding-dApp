@@ -50,8 +50,8 @@ contract CrowdfundingCampaign is ReentrancyGuard {
     }
     
     function getFlrUsdPrice() public returns (uint256 price, int8 decimals, uint64 timestamp) {
-        FtsoV2Interface ftsoV2 = ContractRegistry.getFtsoV2();
-        return ftsoV2.getFeedById(FLR_USD_ID);
+        FtsoV2Interface ftsov2 = ContractRegistry.getFtsoV2();
+        return ftsov2.getFeedById(FLR_USD_ID);
     }
     
     
