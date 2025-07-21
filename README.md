@@ -12,6 +12,10 @@ A decentralized crowdfunding platform built on Flare Network that allows users t
 
 ## Getting Started
 
+Install Metamask
+Create accounts (5 for testing)
+Fund with [Faucet](https://faucet.flare.network/coston2)
+
 1. Clone and install dependencies:
 
    ```console
