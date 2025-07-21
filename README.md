@@ -15,9 +15,10 @@ A decentralized crowdfunding platform built on Flare Network that allows users t
 1. Clone and install dependencies:
 
    ```console
-   git clone <repository-url>
-   cd <repository-name>
+   git clone https://github.com/x-maues/ftso-crowdfunding-dApp.git
+   cd ftso-crowdfunding-dApp
    yarn install
+   
    ```
 
 2. Set up environment variables:
